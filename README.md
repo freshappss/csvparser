@@ -9,9 +9,6 @@
 # Rabo Issue Parser
 <br />
 <p align="center">
-  <a href="https://github.com/alexanderritik/Best-README-Template">
-    <img src="https://freshapps.nl/wp-content/uploads/2021/12/freshapps.svg" alt="Logo" width="80" height="80">
-  </a>
   <p align="center">
     This is a CSV Parser that is created for the Rabo assesment. Please do not copy
   </p>
