@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7832AF028A5AD6600CA2781 /* CSVParserInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7832AEF28A5AD6600CA2781 /* CSVParserInteractorTests.swift */; };
+		E7832AF228A65D9400CA2781 /* CSVParserPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7832AF128A65D9400CA2781 /* CSVParserPresenterTests.swift */; };
+		E7832AF528A6717E00CA2781 /* IssuesMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7832AF428A6717E00CA2781 /* IssuesMock.swift */; };
+		E7832AF728A67F5000CA2781 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7832AF628A67F5000CA2781 /* Formatters.swift */; };
+		E7832AF928A67FFB00CA2781 /* FormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7832AF828A67FFB00CA2781 /* FormatterTests.swift */; };
+		E7FA7CF028A3DC28002161C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA7CEF28A3DC28002161C5 /* AppDelegate.swift */; };
+		E7FA7CF228A3DC28002161C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA7CF128A3DC28002161C5 /* SceneDelegate.swift */; };
+		E7FA7CF428A3DC28002161C5 /* CSVParserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA7CF328A3DC28002161C5 /* CSVParserViewController.swift */; };
+		E7FA7CF728A3DC28002161C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7FA7CF528A3DC28002161C5 /* Main.storyboard */; };
+		E7FA7CF928A3DC29002161C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7FA7CF828A3DC29002161C5 /* Assets.xcassets */; };
+		E7FA7CFC28A3DC29002161C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7FA7CFA28A3DC29002161C5 /* LaunchScreen.storyboard */; };
+		E7FA7D0728A3DC29002161C5 /* CSVParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA7D0628A3DC29002161C5 /* CSVParserTests.swift */; };
+		E7FA7D1128A3DC29002161C5 /* raboissuesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA7D1028A3DC29002161C5 /* raboissuesUITests.swift */; };
+		E7FA7D1328A3DC29002161C5 /* raboissuesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA7D1228A3DC29002161C5 /* raboissuesUITestsLaunchTests.swift */; };
+		E7FA7D2128A3DCA8002161C5 /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA7D2028A3DCA8002161C5 /* CSVParser.swift */; };
+		E7FA7D2428A3DE0C002161C5 /* Issues.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA7D2328A3DE0C002161C5 /* Issues.swift */; };
+		E7FA7D2728A3DEEB002161C5 /* issues.csv in Resources */ = {isa = PBXBuildFile; fileRef = E7FA7D2628A3DEEB002161C5 /* issues.csv */; };
+		E7FA7D3228A4FCDC002161C5 /* CSVParserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA7D3128A4FCDC002161C5 /* CSVParserInteractor.swift */; };
+		E7FA7D3428A4FD09002161C5 /* CSVParserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA7D3328A4FD09002161C5 /* CSVParserPresenter.swift */; };
+		E7FA7D3928A51BDA002161C5 /* IssueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA7D3828A51BDA002161C5 /* IssueTableViewCell.swift */; };
+		E7FA7D3B28A5A0CB002161C5 /* CSVParserViewController+Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA7D3A28A5A0CB002161C5 /* CSVParserViewController+Datasource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7FA7D0328A3DC29002161C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7FA7CE428A3DC28002161C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7FA7CEB28A3DC28002161C5;
+			remoteInfo = raboissues;
+		};
+		E7FA7D0D28A3DC29002161C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7FA7CE428A3DC28002161C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7FA7CEB28A3DC28002161C5;
+			remoteInfo = raboissues;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7832AEF28A5AD6600CA2781 /* CSVParserInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParserInteractorTests.swift; sourceTree = "<group>"; };
+		E7832AF128A65D9400CA2781 /* CSVParserPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParserPresenterTests.swift; sourceTree = "<group>"; };
+		E7832AF428A6717E00CA2781 /* IssuesMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesMock.swift; sourceTree = "<group>"; };
+		E7832AF628A67F5000CA2781 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		E7832AF828A67FFB00CA2781 /* FormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterTests.swift; sourceTree = "<group>"; };
+		E7FA7CEC28A3DC28002161C5 /* raboissues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = raboissues.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7FA7CEF28A3DC28002161C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7FA7CF128A3DC28002161C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E7FA7CF328A3DC28002161C5 /* CSVParserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParserViewController.swift; sourceTree = "<group>"; };
+		E7FA7CF628A3DC28002161C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7FA7CF828A3DC29002161C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7FA7CFB28A3DC29002161C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7FA7CFD28A3DC29002161C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7FA7D0228A3DC29002161C5 /* raboissuesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = raboissuesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7FA7D0628A3DC29002161C5 /* CSVParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParserTests.swift; sourceTree = "<group>"; };
+		E7FA7D0C28A3DC29002161C5 /* raboissuesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = raboissuesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7FA7D1028A3DC29002161C5 /* raboissuesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raboissuesUITests.swift; sourceTree = "<group>"; };
+		E7FA7D1228A3DC29002161C5 /* raboissuesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raboissuesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7FA7D2028A3DCA8002161C5 /* CSVParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParser.swift; sourceTree = "<group>"; };
+		E7FA7D2328A3DE0C002161C5 /* Issues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Issues.swift; sourceTree = "<group>"; };
+		E7FA7D2628A3DEEB002161C5 /* issues.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = issues.csv; sourceTree = "<group>"; };
+		E7FA7D3128A4FCDC002161C5 /* CSVParserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParserInteractor.swift; sourceTree = "<group>"; };
+		E7FA7D3328A4FD09002161C5 /* CSVParserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParserPresenter.swift; sourceTree = "<group>"; };
+		E7FA7D3828A51BDA002161C5 /* IssueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueTableViewCell.swift; sourceTree = "<group>"; };
+		E7FA7D3A28A5A0CB002161C5 /* CSVParserViewController+Datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CSVParserViewController+Datasource.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7FA7CE928A3DC28002161C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7FA7CFF28A3DC29002161C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7FA7D0928A3DC29002161C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7832AF328A6717000CA2781 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				E7832AF428A6717E00CA2781 /* IssuesMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		E7832AFA28A68DD300CA2781 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				E7FA7D2F28A4FCB4002161C5 /* Parser */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		E7FA7CE328A3DC28002161C5 = {
+			isa = PBXGroup;
+			children = (
+				E7FA7CEE28A3DC28002161C5 /* raboissues */,
+				E7FA7D0528A3DC29002161C5 /* raboissuesTests */,
+				E7FA7D0F28A3DC29002161C5 /* raboissuesUITests */,
+				E7FA7CED28A3DC28002161C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7FA7CED28A3DC28002161C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7FA7CEC28A3DC28002161C5 /* raboissues.app */,
+				E7FA7D0228A3DC29002161C5 /* raboissuesTests.xctest */,
+				E7FA7D0C28A3DC29002161C5 /* raboissuesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7FA7CEE28A3DC28002161C5 /* raboissues */ = {
+			isa = PBXGroup;
+			children = (
+				E7FA7D3728A51BB7002161C5 /* Views */,
+				E7832AFA28A68DD300CA2781 /* Module */,
+				E7FA7CEF28A3DC28002161C5 /* AppDelegate.swift */,
+				E7FA7CF128A3DC28002161C5 /* SceneDelegate.swift */,
+				E7FA7CFD28A3DC29002161C5 /* Info.plist */,
+				E7FA7D2228A3DDF4002161C5 /* Entities */,
+				E7FA7D2528A3DEDA002161C5 /* Resources */,
+				E7FA7D2828A3DEFE002161C5 /* Storyboards */,
+				E7FA7D1F28A3DC8F002161C5 /* Utils */,
+			);
+			path = raboissues;
+			sourceTree = "<group>";
+		};
+		E7FA7D0528A3DC29002161C5 /* raboissuesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7832AF328A6717000CA2781 /* Mocks */,
+				E7FA7D0628A3DC29002161C5 /* CSVParserTests.swift */,
+				E7832AEF28A5AD6600CA2781 /* CSVParserInteractorTests.swift */,
+				E7832AF128A65D9400CA2781 /* CSVParserPresenterTests.swift */,
+				E7832AF828A67FFB00CA2781 /* FormatterTests.swift */,
+			);
+			path = raboissuesTests;
+			sourceTree = "<group>";
+		};
+		E7FA7D0F28A3DC29002161C5 /* raboissuesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7FA7D1028A3DC29002161C5 /* raboissuesUITests.swift */,
+				E7FA7D1228A3DC29002161C5 /* raboissuesUITestsLaunchTests.swift */,
+			);
+			path = raboissuesUITests;
+			sourceTree = "<group>";
+		};
+		E7FA7D1F28A3DC8F002161C5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E7FA7D2028A3DCA8002161C5 /* CSVParser.swift */,
+				E7832AF628A67F5000CA2781 /* Formatters.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E7FA7D2228A3DDF4002161C5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E7FA7D2328A3DE0C002161C5 /* Issues.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E7FA7D2528A3DEDA002161C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7FA7CF828A3DC29002161C5 /* Assets.xcassets */,
+				E7FA7D2628A3DEEB002161C5 /* issues.csv */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E7FA7D2828A3DEFE002161C5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E7FA7CF528A3DC28002161C5 /* Main.storyboard */,
+				E7FA7CFA28A3DC29002161C5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E7FA7D2F28A4FCB4002161C5 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				E7FA7D3128A4FCDC002161C5 /* CSVParserInteractor.swift */,
+				E7FA7D3328A4FD09002161C5 /* CSVParserPresenter.swift */,
+				E7FA7CF328A3DC28002161C5 /* CSVParserViewController.swift */,
+				E7FA7D3A28A5A0CB002161C5 /* CSVParserViewController+Datasource.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		E7FA7D3728A51BB7002161C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7FA7D3828A51BDA002161C5 /* IssueTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7FA7CEB28A3DC28002161C5 /* raboissues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7FA7D1628A3DC29002161C5 /* Build configuration list for PBXNativeTarget "raboissues" */;
+			buildPhases = (
+				E7FA7CE828A3DC28002161C5 /* Sources */,
+				E7FA7CE928A3DC28002161C5 /* Frameworks */,
+				E7FA7CEA28A3DC28002161C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = raboissues;
+			productName = raboissues;
+			productReference = E7FA7CEC28A3DC28002161C5 /* raboissues.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7FA7D0128A3DC29002161C5 /* raboissuesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7FA7D1928A3DC29002161C5 /* Build configuration list for PBXNativeTarget "raboissuesTests" */;
+			buildPhases = (
+				E7FA7CFE28A3DC29002161C5 /* Sources */,
+				E7FA7CFF28A3DC29002161C5 /* Frameworks */,
+				E7FA7D0028A3DC29002161C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7FA7D0428A3DC29002161C5 /* PBXTargetDependency */,
+			);
+			name = raboissuesTests;
+			productName = raboissuesTests;
+			productReference = E7FA7D0228A3DC29002161C5 /* raboissuesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7FA7D0B28A3DC29002161C5 /* raboissuesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7FA7D1C28A3DC29002161C5 /* Build configuration list for PBXNativeTarget "raboissuesUITests" */;
+			buildPhases = (
+				E7FA7D0828A3DC29002161C5 /* Sources */,
+				E7FA7D0928A3DC29002161C5 /* Frameworks */,
+				E7FA7D0A28A3DC29002161C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7FA7D0E28A3DC29002161C5 /* PBXTargetDependency */,
+			);
+			name = raboissuesUITests;
+			productName = raboissuesUITests;
+			productReference = E7FA7D0C28A3DC29002161C5 /* raboissuesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7FA7CE428A3DC28002161C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E7FA7CEB28A3DC28002161C5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					E7FA7D0128A3DC29002161C5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E7FA7CEB28A3DC28002161C5;
+					};
+					E7FA7D0B28A3DC29002161C5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E7FA7CEB28A3DC28002161C5;
+					};
+				};
+			};
+			buildConfigurationList = E7FA7CE728A3DC28002161C5 /* Build configuration list for PBXProject "raboissues" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7FA7CE328A3DC28002161C5;
+			productRefGroup = E7FA7CED28A3DC28002161C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7FA7CEB28A3DC28002161C5 /* raboissues */,
+				E7FA7D0128A3DC29002161C5 /* raboissuesTests */,
+				E7FA7D0B28A3DC29002161C5 /* raboissuesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7FA7CEA28A3DC28002161C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FA7D2728A3DEEB002161C5 /* issues.csv in Resources */,
+				E7FA7CFC28A3DC29002161C5 /* LaunchScreen.storyboard in Resources */,
+				E7FA7CF928A3DC29002161C5 /* Assets.xcassets in Resources */,
+				E7FA7CF728A3DC28002161C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7FA7D0028A3DC29002161C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7FA7D0A28A3DC29002161C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7FA7CE828A3DC28002161C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FA7D3228A4FCDC002161C5 /* CSVParserInteractor.swift in Sources */,
+				E7FA7D3428A4FD09002161C5 /* CSVParserPresenter.swift in Sources */,
+				E7FA7CF428A3DC28002161C5 /* CSVParserViewController.swift in Sources */,
+				E7FA7CF028A3DC28002161C5 /* AppDelegate.swift in Sources */,
+				E7FA7CF228A3DC28002161C5 /* SceneDelegate.swift in Sources */,
+				E7FA7D3B28A5A0CB002161C5 /* CSVParserViewController+Datasource.swift in Sources */,
+				E7FA7D2128A3DCA8002161C5 /* CSVParser.swift in Sources */,
+				E7FA7D2428A3DE0C002161C5 /* Issues.swift in Sources */,
+				E7832AF728A67F5000CA2781 /* Formatters.swift in Sources */,
+				E7FA7D3928A51BDA002161C5 /* IssueTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7FA7CFE28A3DC29002161C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7832AF028A5AD6600CA2781 /* CSVParserInteractorTests.swift in Sources */,
+				E7832AF528A6717E00CA2781 /* IssuesMock.swift in Sources */,
+				E7832AF928A67FFB00CA2781 /* FormatterTests.swift in Sources */,
+				E7832AF228A65D9400CA2781 /* CSVParserPresenterTests.swift in Sources */,
+				E7FA7D0728A3DC29002161C5 /* CSVParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7FA7D0828A3DC29002161C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FA7D1328A3DC29002161C5 /* raboissuesUITestsLaunchTests.swift in Sources */,
+				E7FA7D1128A3DC29002161C5 /* raboissuesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7FA7D0428A3DC29002161C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7FA7CEB28A3DC28002161C5 /* raboissues */;
+			targetProxy = E7FA7D0328A3DC29002161C5 /* PBXContainerItemProxy */;
+		};
+		E7FA7D0E28A3DC29002161C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7FA7CEB28A3DC28002161C5 /* raboissues */;
+			targetProxy = E7FA7D0D28A3DC29002161C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7FA7CF528A3DC28002161C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7FA7CF628A3DC28002161C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7FA7CFA28A3DC29002161C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7FA7CFB28A3DC29002161C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7FA7D1428A3DC29002161C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7FA7D1528A3DC29002161C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7FA7D1728A3DC29002161C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62M57B6SD2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = raboissues/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rabobank CSV";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.rabobank.raboissues;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7FA7D1828A3DC29002161C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62M57B6SD2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = raboissues/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rabobank CSV";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.rabobank.raboissues;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7FA7D1A28A3DC29002161C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.rabobank.raboissuesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/raboissues.app/raboissues";
+			};
+			name = Debug;
+		};
+		E7FA7D1B28A3DC29002161C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.rabobank.raboissuesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/raboissues.app/raboissues";
+			};
+			name = Release;
+		};
+		E7FA7D1D28A3DC29002161C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.rabobank.raboissuesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = raboissues;
+			};
+			name = Debug;
+		};
+		E7FA7D1E28A3DC29002161C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.rabobank.raboissuesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = raboissues;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7FA7CE728A3DC28002161C5 /* Build configuration list for PBXProject "raboissues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7FA7D1428A3DC29002161C5 /* Debug */,
+				E7FA7D1528A3DC29002161C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7FA7D1628A3DC29002161C5 /* Build configuration list for PBXNativeTarget "raboissues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7FA7D1728A3DC29002161C5 /* Debug */,
+				E7FA7D1828A3DC29002161C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7FA7D1928A3DC29002161C5 /* Build configuration list for PBXNativeTarget "raboissuesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7FA7D1A28A3DC29002161C5 /* Debug */,
+				E7FA7D1B28A3DC29002161C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7FA7D1C28A3DC29002161C5 /* Build configuration list for PBXNativeTarget "raboissuesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7FA7D1D28A3DC29002161C5 /* Debug */,
+				E7FA7D1E28A3DC29002161C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7FA7CE428A3DC28002161C5 /* Project object */;
+}
